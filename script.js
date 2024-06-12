@@ -69,3 +69,6 @@ function get_Data() {
 }
 
 window.onload = get_Data;
+
+// Copytright GAFISK.
+// Untuk menghilangkan Copyright. Silahkan dirubah kodenya.
