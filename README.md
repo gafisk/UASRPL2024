@@ -2,6 +2,8 @@
 
 ## Karena aku tidak tahu apa itu basis path testing dan node basis path testing
 
+# Gasken, jangan lupa di rubah tampilannya atau bahkan variabel - variabel dan strukturnya.
+
 # Gambar No_2.png
 
 ![No_2](https://raw.githubusercontent.com/gafisk/UASRPL2024/main/No_2.png)
