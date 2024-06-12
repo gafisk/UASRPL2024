@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-06-12T15:03:59.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" version="24.5.3" etag="3_MT-xgiB4ivO_VooQAi" type="device">
+  <diagram id="kDdkKMHwAZtVgaIrLqBa" name="Page-1">
+    <mxGraphModel dx="1002" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" edge="1" parent="1" source="X3f5UDYvIKCEJkWEha-Z-1" target="X3f5UDYvIKCEJkWEha-Z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" edge="1" parent="1" source="X3f5UDYvIKCEJkWEha-Z-2" target="X3f5UDYvIKCEJkWEha-Z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-2" value="Konversi timestamp ke mliidetik" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" edge="1" parent="1" source="X3f5UDYvIKCEJkWEha-Z-4" target="X3f5UDYvIKCEJkWEha-Z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-4" value="Membuat objek detik" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" edge="1" parent="1" source="X3f5UDYvIKCEJkWEha-Z-6" target="X3f5UDYvIKCEJkWEha-Z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-6" value="Definisikan format - format yang dibutuhkan" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" edge="1" parent="1" source="X3f5UDYvIKCEJkWEha-Z-8" target="X3f5UDYvIKCEJkWEha-Z-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-8" value="Konfersi ke string dan mengirim nilai ke Frontend" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3f5UDYvIKCEJkWEha-Z-10" value="Finish" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

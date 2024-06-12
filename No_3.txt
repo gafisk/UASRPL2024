@@ -1,0 +1,3 @@
+1. Agar tampilan bagus dan mudah dibaca dan disesuaikan tampilannya
+2. Karena masukan dari API adalah detik saat ini yang berjumlah 1 miliar detik lebih yang dihitung sejak detik ke 0 adalah Kamis, 1 Januari 1970 00:00
+3. Dikonversi ke indonesia dengan key ID yang menandakan indonesia karena target aplikasi untuk dilihat orang indonesia

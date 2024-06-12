@@ -1,0 +1,43 @@
+function get_Waktu(timestamp): > timestamp adalah inputan atau parameter
+    
+    milidetik = timestamp * 1000 > Bagian ini bertujuan untuk mengkonfersi timestamp ke milidetik
+    
+    tanggal = new Date(milidetik) > Membuat Objek milidetik dengan nama tanggal
+    
+    
+    ket = {
+        weekday: "long", > menjadi hari, seperti senin , selasa
+        year: "numeric", > menampilkan tahun dalam bentuk angka
+        month: "long", > menjadi bulan, seperti Juni, Juli
+        day: "numeric", > menampilkan tanggal dalam bentuk angka
+        hour: "2-digit", > Menampilkan angka untuk jam sebanyak 2 digit
+        minute: "2-digit", > Menampilkan angka untuk menit sebanyak 2 digit
+        hour12: false > Untuk pemformatan menjadi 24 jam. agar tidak mengguanak AM dan PM
+    } > Ini hanya opsi kebutuhan tampilan
+    
+    hasil = tanggal.toLocaleString("id-ID", ket) > Konversi objek tanggal ke string lokal dengan opsi yang sudah di definisikan menjadi format ID atau Indonesia
+    
+    return hasil > Mengembalikan nilai
+
+
+Node Basis Path Testing
+Identifikasi Node:
+Langkah-langkah atau pernyataan dalam fungsi get_Waktu adalah:
+Konversi timestamp dari detik ke milidetik.
+Buat objek tanggal dari milidetik.
+Definisikan opsi format tanggal dan waktu.
+Konversi objek tanggal ke string lokal dengan opsi yang telah didefinisikan.
+Kembalikan string tanggal yang telah diformat.
+
+Graf Aliran Kontrol:
+Graf aliran kontrol untuk fungsi ini akan sederhana, hanya berisi langkah-langkah yang dijelaskan di atas dalam urutan yang sesuai.
+
+Jalur Basis:
+Jalur basis adalah jalur eksekusi dasar yang mencakup semua langkah dalam fungsi tanpa ada percabangan atau perulangan yang kompleks.
+Dalam kasus ini, hanya ada satu jalur basis yang mengikuti semua langkah dari konversi timestamp hingga pengembalian nilai tanggal yang diformat.
+
+Buat Kasus Uji:
+Kasus uji harus mencakup pengujian untuk berbagai nilai timestamp, termasuk nilai nol, positif, negatif, dan ekstrim, serta kasus uji untuk memastikan bahwa format tanggal yang dihasilkan sesuai dengan yang diharapkan.
+Eksekusi dan Evaluasi:
+
+Eksekusi kasus uji yang telah dibuat dan evaluasi hasilnya untuk memastikan bahwa setiap langkah dalam fungsi dieksekusi dengan benar dan bahwa nilai tanggal yang dikembalikan sesuai dengan format yang diharapkan.
