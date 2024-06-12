@@ -1,6 +1,8 @@
-# GES, Untuk nomor 2 jangan ikutin aku yaa, sesaddd wkwkw.
+## GES, Untuk nomor 2 jangan ikutin aku yaa, Karena aku tidak tahu meterinya.
 
 ## Karena aku tidak tahu apa itu basis path testing dan node basis path testing
+
+## lihat disini websitenya (https://uasrpl-2024.vercel.app/)
 
 # Gasken, jangan lupa di rubah tampilannya atau bahkan variabel - variabel dan strukturnya.
 

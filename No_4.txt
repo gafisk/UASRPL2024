@@ -1,3 +1,3 @@
-karena dataset yang akan ditampilkan menggunakan API yang memungkinkan datanya secara real time. Saya berusaha mendeploy menggunakan github.page karena selain murah dan gratis tetapi juga dapat diakses secara global. Oleh karena itu, saya membangunnya menggunakan javascript dan HTML yang merupakan batasan dalam menggunakan github pages
+karena dataset yang akan ditampilkan menggunakan API yang memungkinkan datanya secara real time. Saya berusaha mendeploy menggunakan Vecrcel yang gratis tetapi juga dapat diakses secara global. Oleh karena itu, saya membangunnya menggunakan javascript dan HTML yang merupakan batasan dalam menggunakan github pages
 
 tantangannya adalah ketika API sudah tidak dapat diakses atau mengalami eror, maka informasi tidak akan dapat ditampilkan dengan baik.
