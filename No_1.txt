@@ -1,5 +1,16 @@
-Enkaptulasi disini pada bagian ini adalah dengan mencoba membuat fungsi get_Waktu. Tujuan dari enkaptulasi adalah untuk menyembunyikan detail internal suatu objek dan hanya mengekspos fungsionalitas yang diperlukan kepada pengguna eksternal.
-Yang terjadi difungsi itu adalah:
-1. Lokal variabel bertujuan agar variabelnya hanya bisa diakses didalam fungsi itu saja. Dalam kode, lokal variabel yang dimaksud adalah 'Tanggal' dan 'Ket'. Ini bertujuan untuk menyembunyikan datanya dari pengguna eksternal fungsi
-2. Penggunaan Const terhadap terhadap "Tanggal" dan "ket" bertujuan agar ketika mereka diberi nilai, maka tidak ada kemungkinan untuk bisa dirubah. Ini bertujuan agar lebih memastikan bahwa nilai ini tidak akan bisa dirubah dari luar fungsi. Dan
-3. Objek dari Date dan Ket digunakan di dalam fungsi. tujuannya untuk tidak memberikan kesempatan dirubah dari luar.
+Untuk mendapatkan waktu yang mengenkaptuasi waktu perlu membuat sebuah fungsi. Fungsi ini dibuat menggunakan javascript seperti berikut:
+function get_Waktu(timestamp) {
+  const tanggal = new Date(timestamp * 1000);
+  const ket = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  };
+  return tanggal.toLocaleString("id-ID", ket);
+}
+
+Jadi, Caranya adalah dengan mengambil nilai detik yang 
